@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/lightpink">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,9 +22,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:gravity="center"
-                android:text="Calculator BMI"
+                android:text="CALCULATOR BMI Nguyễn Hải Ly 2050531200231"
                 android:textColor="#fff"
-                android:textSize="35dp" />
+                android:textSize="25dp" />
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -31,7 +32,7 @@
             android:background="#fff" />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:paddingTop="10dp">
             <TextView
                 android:layout_width="120dp"
@@ -59,7 +60,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:paddingTop="10dp">
             <TextView
                 android:layout_width="120dp"
@@ -84,6 +85,75 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:src="@drawable/icon_height"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Age:"
+                android:textColor="#87cefa"
+                android:textSize="30dp" />
+
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="y"
+                android:textColorHint="#87cefa"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:src="@drawable/icon_age" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingLeft="55dp"
+            android:paddingTop="10dp">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="CALCULATOR YOUR BMI"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            >
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:paddingLeft="50dp"
+                android:textSize="25dp"
+                android:text="Results: "
+                android:textColor="@color/purple_700"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="100dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:src="@drawable/rsz_630f74d5a1752"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
